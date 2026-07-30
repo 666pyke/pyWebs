@@ -1,0 +1,21 @@
+name: pyWebs
+version: '${project.version}'
+main: org.me.pyke.pywebs.PyWebs
+api-version: '1.20'
+author: 666pyke
+commands:
+  pywebs:
+    description: Main command for pyWebs plugin
+    usage: /pywebs <subcommand>
+    permission: pywebs.use
+    aliases: [pw]
+permissions:
+  pywebs.use:
+    description: Allows using the main pyWebs command.
+    default: op
+  pywebs.reload:
+    description: Allows reloading pyWebs.
+    default: op
+  pywebs.cobweb.give:
+    description: Allows giving custom cobwebs.
+    default: op

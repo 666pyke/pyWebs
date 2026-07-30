@@ -1,0 +1,57 @@
+settings:
+  metrics:
+    enabled: true
+
+  # Worlds where pyWebs will not manage placed cobwebs or block fireworks.
+  disabled-worlds:
+    - example_world
+
+  # If true, active plugin cobwebs and their displays are removed when the plugin disables.
+  remove-active-cobwebs-on-disable: true
+
+  # Blocks elytra firework boosts while the player is inside a cobweb.
+  block-fireworks-in-cobweb: true
+
+  messages:
+    cobweb-placed: true
+
+  progress-display:
+    enabled: true
+    start: "&a||||||||||||||||||||||||||"
+    middle: "&e||||||||||||||||||||||||||"
+    end: "&c||||||||||||||||||||||||||"
+
+cobwebs:
+  # Commands and item NBT use this key. Example: /pywebs cobweb give Pyke cobweb_1 8
+  default: cobweb_1
+
+  tiers:
+    tier-1:
+      nbt-key: cobweb_1
+      name: "&7&l> &7Tier 1 Cobweb &8*"
+      lore:
+        - "&8Special item"
+        - ""
+        - "&7> &fVanishes after &75 seconds&7."
+        - "&7&oUse strategically."
+      despawn-time: 5
+
+    tier-2:
+      nbt-key: cobweb_2
+      name: "&7&l> &7Tier 2 Cobweb &8*"
+      lore:
+        - "&8Special item"
+        - ""
+        - "&7> &fVanishes after &710 seconds&7."
+        - "&7&oUse strategically."
+      despawn-time: 10
+
+    tier-3:
+      nbt-key: cobweb_3
+      name: "&7&l> &7Tier 3 Cobweb &8*"
+      lore:
+        - "&8Special item"
+        - ""
+        - "&7> &fVanishes after &720 seconds&7."
+        - "&7&oUse strategically."
+      despawn-time: 20

@@ -1,0 +1,23 @@
+cobweb:
+  tier-not-recognized: "&#ff5ebc&lpyWebs &8> &fThis cobweb tier is not recognized."
+  default-fallback: "&#ff5ebc&lpyWebs &8> &fNo default cobweb tier found. Using the first loaded tier."
+  placed: "&#ff5ebc&lpyWebs &8> &fCobweb placed. It will despawn in &#ff8fd2{time}s&f."
+  despawned: "&#ff5ebc&lpyWebs &8> &fCobweb despawned."
+  usage: "&#ff5ebc&lpyWebs &8> &fUsage: &#ff8fd2/pywebs cobweb give <player> <nbt-key> [amount]&f."
+  player-not-found: "&#ff5ebc&lpyWebs &8> &fPlayer &#ff8fd2{player} &fwas not found."
+  invalid-tier: "&#ff5ebc&lpyWebs &8> &fInvalid cobweb tier: &#ff8fd2{tier}&f."
+  invalid-amount: "&#ff5ebc&lpyWebs &8> &fAmount must be a number between &#ff8fd21 &fand &#ff8fd264&f."
+  give-success: "&#ff5ebc&lpyWebs &8> &fYou gave &#ff8fd2{amount}x {name} &fto &#ff8fd2{player}&f."
+  received: "&#ff5ebc&lpyWebs &8> &fYou received &#ff8fd2{amount}x {name} &ffrom &#ff8fd2{sender}&f."
+  firework-blocked: "&#ff5ebc&lpyWebs &8> &fYou cannot use fireworks while stuck in a cobweb."
+
+command:
+  usage:
+    - "&#ff5ebc&lpyWebs COMMANDS &8> &fAvailable commands"
+    - "&8- &#ff8fd2/pywebs cobweb give <player> <nbt-key> [amount] &8- &fGive custom cobwebs."
+    - "&8- &#ff8fd2/pywebs reload &8- &fReload configuration and messages."
+  unknown: "&#ff5ebc&lpyWebs &8> &fUnknown command. Use &#ff8fd2/pywebs &ffor help."
+  error: "&#ff5ebc&lpyWebs &8> &fAn error occurred while running this command: &#ff8fd2{error}"
+  reload:
+    success: "&#ff5ebc&lpyWebs &8> &fConfiguration and messages reloaded. &#ff8fd2OK"
+  no-permission: "&#ff5ebc&lpyWebs &8> &fYou do not have permission to do that."
